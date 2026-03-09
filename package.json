@@ -1,0 +1,16 @@
+{
+  "name": "uxdg320-react-exercises",
+  "private": true,
+  "workspaces": [
+    "exercises/*/starter",
+    "exercises/*/solution"
+  ],
+  "scripts": {
+    "dev:1": "npm -w exercises/01-jsx-components/starter run dev",
+    "dev:2": "npm -w exercises/02-props/starter run dev",
+    "dev:3": "npm -w exercises/03-events/starter run dev",
+    "dev:4": "npm -w exercises/04-state/starter run dev",
+    "dev:5": "npm -w exercises/05-lists-keys/starter run dev",
+    "dev:6": "npm -w exercises/06-useeffect-lifting/starter run dev"
+  }
+}
